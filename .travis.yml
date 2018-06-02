@@ -9,7 +9,7 @@ before_install:
 
 install:
   - sudo apt-get -y install qt4-dev-tools libopenbabel-dev libeigen3-dev
-  - source /opt/qt*/bin/qt*-env.sh
+#  - source /opt/qt*/bin/qt*-env.sh
 
 script:
   - cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
